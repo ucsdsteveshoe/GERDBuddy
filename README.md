@@ -9,6 +9,8 @@ GERDBuddy is an allergy tracking app I started and trashed in Fall 2022. The ide
 
 The project has been scrapped - the app is interactive but lacks any features and acts more as a proof of concept. However, by the time I had started this project I had gained and used experience in development and design, and I believe what's left of it shows this experience.
 
+<br />
+
 ### Design Principles
 
 There was quite a lot of thought that went into the design before I began programming. While I believe rapid prototyping would have served the project better, it would have added significantly more time, and the original diagrams I used had a lot of thought put into them;
@@ -44,7 +46,11 @@ There are a few remnants of this left in the code - food blocks are hard coded r
 
 The other rule that I followed was the Open-Closed principle, something I learned through my hobby of game development. The idea of the principle is that classes should be open for *development* but closed for *modification*. In essence, this boils down to making code reusable rather than completely refactoring it. Every time I wanted to change a component's behavior, then, I would make sure to put much of what used to exist in a seperate function. While this did take longer at the beginning, every time I needed to backtrack or I didn't like a change, it was easy to return to how things were.
 
+<br />
+
 > To run the project, a user needs to have Expo Go and Node Project manager installed. After cloning the repository, a user needs to run `npm run install` once to download necessary libraries. The project can then be launched
+
+<br />
 
 <p align="center"> <img src="/images/Bottom.jpg" width="250"/></p>
 
